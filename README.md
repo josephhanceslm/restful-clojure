@@ -1,5 +1,9 @@
 # restful-clojure
 
+Example of a Ring-based application using Compojure, ring-cors, and clj-http.
+
+## Overview
+
 I'm just getting started with Clojure and it's my experience that the best way to become fluent in a new language, in this case a new paradigm, is to force yourself to do real work with it.  I know some spend considerable time reading books but, for me at least, that is no substitute for struggling through it.
 
 I have a PV installation at my home and the inverter is a [Fronius Primo](http://www.fronius.com/en/photovoltaics/products/all-products/inverters/fronius-primo/fronius-primo-3-0-1) which has a nice JSON-based [API](http://www.fronius.com/~/downloads/Solar%20Energy/Operating%20Instructions/42%2C0410%2C2012.pdf) that provides significant details about the system operation both current and over time.  My intent was to write a ClojureScript-based page to display information read from the inverter but, of course, the inverter's API doesn't support CORS and so the ClojureScript pages can't make web service calls to it directly.
