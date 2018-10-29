@@ -21,7 +21,7 @@ Some challenges I faced in doing this simple project:
 
 One of the things I'm trying to exercise here is the thread-first `(->)` macro.  If you see yourself ending up with a deeply nested string of functions, think about one of the threading macros.  It makes for much more readable code!
 
-Of course what would a Clojure RESTFul web service be without a companion ClojureScript SPA to call it?  That's was spawned this to begin with.  Please refer to my other project called [restful-client](https://github.com/josephhanceslm/restful-client) for that.  In much the same way that this back-end project was a struggle, the same sorts of things came up on the front-end.
+Of course what would a Clojure RESTful web service be without a companion ClojureScript SPA to call it?  That's was spawned this to begin with.  Please refer to my other project called [restful-client](https://github.com/josephhanceslm/restful-client) for that.  In much the same way that this back-end project was a struggle, the same sorts of things came up on the front-end.
 
 Enjoy!
 
