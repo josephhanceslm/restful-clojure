@@ -14,7 +14,7 @@ The biggest problem with the entire Clojure ecosystem from a beginner's perspect
 
 Some challenges I faced in doing this simple project:
 
-1) While the CORS middleware is available, there is virtually no information on how to use it.  It's used in this code and hopefully this example will help someone.
+1) While CORS middleware, as ring-cors, is available, there is virtually no information on how to use it.  It's used in this code and hopefully this example will help someone.
 2) I used Compojure but there is no mention of how to use Ring middleware with Compojure.  It's not obvious, of course, until it is.
 3) Lots of examples of how to do GET requests using clj-http.client but few on POST.  Even less on using JSON.  Both are shown here.  There are some left-over GET examples in the code, they were just for testing.
 4) There is nearly nothing about the "anti-forgery" functionality but, of course, if you don't handle it nothing works!  This shows how to disable it.
